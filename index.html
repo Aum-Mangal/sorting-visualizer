@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <h2>Algorithms</h2>
+        
+        <div class="btn-group">
+            <button onclick="runAlgo('bubble')">Bubble</button>
+            <button onclick="runAlgo('selection')">Selection</button>
+            <button onclick="runAlgo('insertion')">Insertion</button>
+            <button onclick="runAlgo('merge')">Merge</button>
+            <button onclick="runAlgo('quick')">Quick</button>
+            <button onclick="runAlgo('heap')">Heap</button>
+        </div>
+
+        <hr style="border-color: #334155; width: 100%;">
+
+        <div class="controls">
+            <label>Speed: <span id="speedVal">50</span>ms</label>
+            <input type="range" min="5" max="300" value="50" id="speedRange">
+
+            <label>Size: <span id="sizeVal">30</span> bars</label>
+            <input type="range" min="5" max="100" value="30" id="sizeRange">
+
+            <button class="stop-btn" onclick="stopSorting()" disabled id="stopBtn">🛑 Stop</button>
+            <button class="new-array-btn" onclick="generateArray()">Generate New Array</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>DSA Sorting Visualizer</h1>
+        
+        <div class="dashboard">
+            <div class="stat-box">
+                <span class="label">Time Complexity</span>
+                <span class="value" id="timeComp">--</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Space Complexity</span>
+                <span class="value" id="spaceComp">--</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Comparisons</span>
+                <span class="value counter" id="compCount">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Swaps</span>
+                <span class="value counter" id="swapCount">0</span>
+            </div>
+        </div>
+
+        <div id="array-container"></div>
+        
+        <div class="explanation-panel">
+            <h3 id="algoTitle">Algorithm Info</h3>
+            <p id="algoDesc">Select an algorithm to see how it works.</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
