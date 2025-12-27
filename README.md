@@ -1,0 +1,21 @@
+# Advanced DSA Sorting Visualizer
+
+An interactive web application to visualize sorting algorithms with real-time animations, sound feedback, and performance statistics.
+
+🔗 Live Demo: https://YOUR_NETLIFY_LINK  
+🔗 GitHub Repo: https://github.com/YOUR_USERNAME/sorting-visualizer
+
+Algorithms:
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+Features:
+- Speed & Size Control
+- Abort Sorting (Stop Button)
+- Comparisons & Swaps Counter
+- Color-coded animations
+- Educational explanation panel
