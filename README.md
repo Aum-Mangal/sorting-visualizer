@@ -2,7 +2,7 @@
 
 An interactive web application to visualize sorting algorithms with real-time animations, sound feedback, and performance statistics.
 
-🔗 Live Demo: https://YOUR_NETLIFY_LINK  
+🔗 Live Demo: https://sorting-visual-izer-phi.vercel.app
 🔗 GitHub Repo: https://github.com/Aum-Mangal/sorting-visualizer
 
 Algorithms:
