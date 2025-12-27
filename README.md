@@ -3,7 +3,7 @@
 An interactive web application to visualize sorting algorithms with real-time animations, sound feedback, and performance statistics.
 
 🔗 Live Demo: https://YOUR_NETLIFY_LINK  
-🔗 GitHub Repo: https://github.com/YOUR_USERNAME/sorting-visualizer
+🔗 GitHub Repo: https://github.com/Aum-Mangal/sorting-visualizer
 
 Algorithms:
 - Bubble Sort
